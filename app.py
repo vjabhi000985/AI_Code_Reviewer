@@ -82,19 +82,8 @@ def main():
   # Text area for code input
   code = st.text_area("Enter your code here...", height=200)
 
-  # Create columns for Generate and Clear buttons
-  col1, col2 = st.columns(2)
-
-  # Generate response button
-  with col1:
-    generate_btn = st.button("Generate")
-
-  # Clear input and output button
-  with col2:
-    clear_btn = st.button("Clear")
-
   # Button to generate code review
-  if generate_btn:
+  if st.button("Generate"):
       if code.strip():  # Check if the input is not empty
           with st.spinner("Analyzing your code..."):
               response = get_response(sys_prompt=prompt, code=code, model=model)
@@ -102,10 +91,6 @@ def main():
           st.write(response)
       else:
           st.error("Please enter your code before clicking 'Generate'.")
-
-  # Handle the Clear button action
-  if clear_btn:
-    st.experimental_rerun()  # Refresh the app to clear inputs and outputs
 
 # Entry point of the application
 if __name__ == '__main__':
