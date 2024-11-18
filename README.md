@@ -64,16 +64,6 @@ streamlit run app.py
 
 - This will start a local server, and you can open the app in your browser by visiting http://localhost:8501.
 
-## Project Structure:
-
-```
-AI_Code_Reviewer/
-├── app.py                # Main Streamlit app file
-├── requirements.txt      # Python dependencies
-├── .env                  # Store your Google API key here
-└── assets/               # Folder for images or static assets (optional)
-```
-
 ## Contributions
 
 Contributions are welcome! Please fork the repository and submit a pull request for any enhancements or bug fixes.
