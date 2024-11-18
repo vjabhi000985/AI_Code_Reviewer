@@ -69,9 +69,15 @@ def main():
   model = config["model"]
   prompt = config["prompt"]
 
-  # Set up the Streamlit app
-  st.set_page_config(page_title="AI Code Reviewer", layout="centered")
-  st.title(":page_facing_up: AI Code Reviewer")
+  # Set up the Streamlit app with an icon and title
+  st.set_page_config(
+    page_title="AI Code Reviewer", 
+    layout="centered",
+    page_icon="🤖")
+
+
+  # Set up the Streamlit app title
+  st.title("📟 AI Code Reviewer")
 
   # Text area for code input
   code = st.text_area("Enter your code here...", height=200)
