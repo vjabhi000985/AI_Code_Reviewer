@@ -14,7 +14,7 @@ AI Code Reviewer is a web application that uses Google's Generative AI to review
 ## Deployment
 
 You can access the deployed version of the app here:  
-**Deployment link** : [](https://aicodereviewer-epfeju6bjwruqwkc5jq38h.streamlit.app/)
+**Deployment link** : [aicodereviewer-epfeju6bjwruqwkc5jq38h.streamlit.app](https://aicodereviewer-epfeju6bjwruqwkc5jq38h.streamlit.app/)
 
 ## Demo Video
 
