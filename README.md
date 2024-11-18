@@ -45,14 +45,12 @@ cd AI_Code_Reviewer
 - Create a .env file in the root directory of the project and add your Google API key:
 
 ```bash
-Copy code
 GOOGLE_API_KEY=your_api_key_here
 ```
 
 ### Step 3: Install the required dependencies:
 
 ```bash
-Copy code
 pip install -r requirements.txt
 ```
 
@@ -61,7 +59,6 @@ pip install -r requirements.txt
 - After the dependencies are installed and the .env file is configured, run the app using Streamlit:
 
 ```bash
-Copy code
 streamlit run app.py
 ```
 
@@ -69,7 +66,7 @@ streamlit run app.py
 
 ## Project Structure:
 
-```bash
+```
 AI_Code_Reviewer/
 ├── app.py                # Main Streamlit app file
 ├── requirements.txt      # Python dependencies
